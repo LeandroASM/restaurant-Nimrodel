@@ -29,7 +29,7 @@
                         <a class="nav-link">Nuestros Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre Nosotros</a>
+                        <a class="nav-link" href="#" id="sobreNosotros">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#form-contacto" id="contactoLink" onclick="formContacto()">Contacto</a>
@@ -157,6 +157,49 @@
             </section>
         </div>
     </main>
+
+    <div class="modalInformacion">
+        <div class="modal_content_informacion col-10 col-lg-7">
+            <button id="close_modal_informacion" type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h1 id="titulo_modal_informacion">Nimrodel Pub Restaurant</h1>
+                        <p id="texto_modal_informacion"><em> Nimrodel Significa “dama de la cueva blanca”. Fue una elfa silvana que vivió
+                            durante la Tercera Edad del Sol en el bosque de Lothlórien. En honor a su nombre, se acuña
+                            Nimrodel al río que nace en las Montañas Nubladas </em></p>
+                        <img id="img_modal_informacion" src="assets/img/IMG1.jpg" class="d-block w-50" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <h1 id="titulo_modal_informacion">Nimrodel Pub Restaurant</h1>
+                        <p id="texto_modal_informacion"><em> Nimrodel Pub Restaurant es un oasis de calma y diversión, lleno de rincones acogedores
+                            en donde se resalta la belleza de su decoración élfica.
+                            Es un lugar ideal para visitar solo o acompañado, disfrutar una tarde con amigos, terminar
+                            el día después del trabajo o almorzar con tu familia.
+                            Puedes probar nuestras tradicionales tablas, en todas sus variedades y que nos han
+                            otorgado reconocimiento dentro de la cultura gastronómica.
+                            También puedes disfrutar nuestras cervezas de fabricación propia, con sabores que te
+                            llevarán a un mágico mundo</em></p>
+                        <img id="img_modal_informacion" src="assets/img/IMG2.jpg" class="d-block w-50" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img id="img_modal_informacion" src="assets/img/IMG1.jpg" class="d-block w-50" alt="...">
+                    </div>
+                </div>
+                <button id="botonAnterior" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button id="botonSiguiente" class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
 
     <div class="myModal">
         <div class="modal_content col-10 col-lg-7">

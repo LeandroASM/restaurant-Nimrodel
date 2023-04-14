@@ -57,6 +57,22 @@ $(document).ready(function(){
         }
     })
 
+
+    /*
+        modal sobre nosotros
+    */
+
+    $('#sobreNosotros').click(function(){
+        $('.modalInformacion').show();
+
+    })
+    $('#close_modal_informacion').click(function(){
+        $('.modalInformacion').hide();
+    })
+
+    $
+    
+
 });
 
 //validamos los datos que se obtienen mediante JQuery

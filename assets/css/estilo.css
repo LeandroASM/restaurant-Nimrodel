@@ -115,8 +115,6 @@ body {
   width: 55%;
   margin: 7% auto;
   padding: 10px 20px 30px 20px;
-  
-  
 }
 
 .myModal h1, p{
@@ -135,3 +133,41 @@ body {
 .myModal button{
   float: right;
 }
+
+.modalInformacion{
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 5;
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: white;
+}
+
+.modalInformacion h1, p{
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+.modalInformacion h1{
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+
+#img_modal_informacion{
+  display: block;
+  margin: 0 auto;
+  height: 20em;
+
+}
+
+.modal_content_informacion{
+  background-color: dimgray;
+  width: 55%;
+  margin: 7% auto;
+  padding: 10px 20px 30px 20px;
+}
+
