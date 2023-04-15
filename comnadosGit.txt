@@ -4,3 +4,10 @@ git add .
 
 git commit -m "primer commit proyecto nimrodel"
 
+git status
+
+git add .
+
+git commit -m "segundo commit proyecto nimrodel"
+
+git log
